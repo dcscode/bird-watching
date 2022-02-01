@@ -3,10 +3,38 @@ html, body {
     padding: 0;
 }
 
+html {
+    font-size: 15px;
+    background-color: lightskyblue;
+}
+
 body {
     width: 70%;
     min-width: 800px;
     margin: 0 auto;
+}
+
+h1, h2 {
+    font-family: 'Cinzel Decorative', cursive;
+    color: whitesmoke;
+}
+
+p, li {
+    font-family: 'Robto COndensed', sans-serif;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+
+}
+
+h2 {
+    font-size: 3rem;
+    text-align: center;
 }
 
 header {
@@ -40,7 +68,7 @@ nav li {
 
 nav a {
     display: inline-block;
-    font-size: 2rem;
+    font-size: 1.5rem;
     height: 3rem;
     line-height: 1.7;
     text-transform: uppercase;
