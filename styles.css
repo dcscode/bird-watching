@@ -15,8 +15,13 @@ body {
     padding: 1%;
 }
 
-main, nav, article, aside, footer {
+main, header, footer {
     background-color: #00A0F3;
+    padding: 1%;
+}
+
+nav, article, aside {
+    background-color: #A0ACBD;
     padding: 1%;
 }
 
@@ -83,7 +88,11 @@ nav a {
     line-height: 1.7;
     text-transform: uppercase;
     text-decoration: none;
-    color: black;
+    color: whitesmoke;
+}
+
+nav a:hover {
+    font-weight: bold;
 }
 
 main {
@@ -108,4 +117,9 @@ aside a {
 
 aside img {
     max-width: 100%;
+}
+
+footer {
+    margin-top: 10px;
+    color: whitesmoke;
 }
