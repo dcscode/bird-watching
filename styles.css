@@ -8,6 +8,7 @@ body {
     min-width: 800px;
     margin: 0 auto;
 }
+
 header {
     display: flex;
     flex-flow: row wrap;
@@ -15,20 +16,26 @@ header {
 
 header img {
     display: block;
+    height: 60px;
 }
 
 nav {
+    height: 50px;
+    flex: 100%;
     display: flex;
 }
 
 nav ul {
+    padding: 0;
     list-style-type: none;
+    flex: 2;
     display: flex;
 }
 
 nav li {
     display: inline;
     text-align: center;
+    flex: 1;
 }
 
 main {
