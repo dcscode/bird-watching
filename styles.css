@@ -12,6 +12,12 @@ body {
     width: 70%;
     min-width: 800px;
     margin: 0 auto;
+    padding: 1%;
+}
+
+main, nav, article, aside, footer {
+    background-color: #00A0F3;
+    padding: 1%;
 }
 
 h1, h2 {
@@ -29,6 +35,8 @@ p, li {
 h1 {
     font-size: 4rem;
     text-align: center;
+    flex: 5;
+    text-transform: uppercase;
 
 }
 
@@ -40,11 +48,13 @@ h2 {
 header {
     display: flex;
     flex-flow: row wrap;
+    margin-bottom: 10px;
 }
 
 header img {
     display: block;
     height: 60px;
+    padding-top: 20.15px;
 }
 
 nav {
