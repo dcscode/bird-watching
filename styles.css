@@ -27,13 +27,16 @@ nav, article, aside {
 
 h1, h2 {
     font-family: 'Cinzel Decorative', cursive;
-    color: whitesmoke;
+    color: #142f5f;
 }
 
 p, li {
-    font-family: 'Robto COndensed', sans-serif;
-    color: whitesmoke;
+    font-family: 'Robto Condensed', sans-serif;
+    color: #142f5f;
     font-size: 1.5rem;
+}
+
+p {
     line-height: 1.5;
 }
 
@@ -83,12 +86,9 @@ nav li {
 
 nav a {
     display: inline-block;
-    font-size: 1.5rem;
-    height: 3rem;
-    line-height: 1.7;
     text-transform: uppercase;
     text-decoration: none;
-    color: whitesmoke;
+    color: #142f5f;
 }
 
 nav a:hover {
@@ -121,5 +121,5 @@ aside img {
 
 footer {
     margin-top: 10px;
-    color: whitesmoke;
+    color: #142f5f;
 }
