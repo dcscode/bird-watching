@@ -31,9 +31,12 @@ h1, h2 {
 }
 
 p, li {
-    font-family: 'Robto COndensed', sans-serif;
+    font-family: 'Robto Condensed', sans-serif;
     color: whitesmoke;
     font-size: 1.5rem;
+}
+
+p {
     line-height: 1.5;
 }
 
@@ -83,9 +86,6 @@ nav li {
 
 nav a {
     display: inline-block;
-    font-size: 1.5rem;
-    height: 3rem;
-    line-height: 1.7;
     text-transform: uppercase;
     text-decoration: none;
     color: whitesmoke;
